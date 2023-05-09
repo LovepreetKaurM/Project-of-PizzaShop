@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="408.0" prefWidth="641.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HomePageController">
+   <children>
+      <Button id=" signup" fx:id="signup" layoutX="327.0" layoutY="349.0" mnemonicParsing="false" onAction="#OnClickGo" style="-fx-background-color: wihite;" text="sign up" textFill="#05a1f4" />
+      <Button id="login" fx:id="login" layoutX="240.0" layoutY="306.0" mnemonicParsing="false" onAction="#OnClicklogin" prefHeight="26.0" prefWidth="97.0" style="-fx-background-color: skyblue;" text="login" textFill="#660707" />
+      <Label fx:id="l2" layoutX="166.0" layoutY="105.0" prefHeight="26.0" prefWidth="115.0" text="Enter Your Username:" textFill="#f7f6f6" />
+      <Label fx:id="l3" layoutX="166.0" layoutY="214.0" prefHeight="26.0" prefWidth="115.0" text=" Enter Your Password:" textFill="#f2eeee" />
+      <TextField id="txtName" fx:id="txtName" layoutX="166.0" layoutY="155.0" prefHeight="26.0" prefWidth="278.0" />
+      <TextField id="TxtPas" fx:id="txtPass" layoutX="166.0" layoutY="263.0" prefHeight="26.0" prefWidth="278.0" />
+      <Label fx:id="l1" layoutX="232.0" layoutY="30.0" text="Home Page" textFill="#de7f33">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="l4" layoutX="202.0" layoutY="353.0" text="if don't have account:-" textFill="#e4dddd" />
+      <Accordion>
+        <panes>
+          <TitledPane animated="false" text="untitled 1" />
+          <TitledPane animated="false" text="untitled 2" />
+        </panes>
+      </Accordion>
+   </children>
+</AnchorPane>
